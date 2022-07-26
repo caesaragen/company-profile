@@ -16,6 +16,20 @@ export const Nav = styled.nav`
     z-index: 10;
     transition: all 0.3s ease-in-out;
 
+    // .logo-text {
+    //     width: 100px;
+    //     height: 100px;
+    //     margin-left: -50px;
+    //     margin-top: -50px;
+    //     display: flex;
+    //     justify-content: center;
+    //     align-items: center;
+    //     font-size: 1.5rem;
+    //     font-weight: bold;
+    //     color: #fff;
+    // }
+
+
     @media screen and (max-width: 960px) {
         transition: 0.8s all ease;
     }
@@ -42,6 +56,15 @@ export const NavLogo = styled(LinkR)`
     font-weight: bold;
     text-decoration: none;
     transition: all ease 0.2s;
+        img {
+        width: 200px;
+        height: 200px;
+        margin-left: -50px;
+        // margin-top: -50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
     &:hover {
         color: #B05FFD;
